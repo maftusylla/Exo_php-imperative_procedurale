@@ -1,3 +1,4 @@
+ // ajouter un produit  a un categorie
  $categorieExiste =  false;
           $code = readline("veuillez saisir le code :");
              foreach ($categories as $index => $categorie ) {
@@ -16,6 +17,5 @@
                   ] ;
           $categories[$index]["produits"][] = $produit;
        }else {
-          echo "Cette categorie n'existe pas ";
+          echo "Cet categorie n'existe pas ";
        }
-       
